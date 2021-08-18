@@ -1,0 +1,185 @@
+<html>
+    <head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<!-- START NAV SECTION -->
+
+<header id="header">
+  <img id="ezra" src="https://i.ebayimg.com/images/g/rUoAAOSwbopfigOx/s-l300.jpg"></img>
+
+<nav id="nav-bar">
+  <ul>
+    <li><a class="nav-link" href="#welcome-section">About</a></li>
+    <li><a class="nav-link" href="#projects">Work</a></li>
+    <li><a class="nav-link" href="#Contact">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<!--END NAV-->
+
+<!--START ABOUT SECTION-->
+
+
+<section id="welcome-section">
+  <h1>I Am Chris Jonak</h1>
+  <p>A Web Developer</p>
+</section>
+
+
+<!--END ABOUT SECTION-->
+
+<!--START PROJECT SECTION-->
+
+  <section id="projects">
+    <h3>Here I am</h3>
+  </section>
+
+<!--END PROJECT SECTION-->
+
+<!--START CONTACT SECTION-->
+
+<section id="Contact">
+  <h3>Contact Me</h3>
+  
+  <div class="contact-icons">
+<a href="https://github.com/EzraSabine" target="_blank">
+<img src="https://pngimg.com/uploads/github/github_PNG65.png" id="git" class="icons">
+</a>
+  </div>
+</section>
+</html>
+
+<style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  font-family: arial
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 0 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 100%;
+  }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: arial;
+  font-size: 25px;
+  margin-right: 75px;
+}
+
+nav > ul {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 42px;
+}
+
+/* For Navbar */
+@media (max-width: 550px) {
+  header {
+    justify-content: center;
+  }
+  nav {
+    justify-content: center;
+  }
+  a {
+    padding: 12px;
+  }
+}
+  
+nav a:hover {
+  background: olive;
+}
+
+#ezra {
+  width: 95px;
+  padding: 8px;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #000000, #3c4035);
+  width: 100%;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: olive;
+  width: 100%;
+  height: 100vh;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #ae6200;
+  }
+
+#welcome-section > h1 {
+  color: white;
+  margin: 0;
+}
+
+h1, h3 {
+  font-size: 56px;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+}
+
+#welcome-section > p {
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  color: #ae6200;
+}
+
+#profile-link {
+  width: 300px;
+}
+
+#git {
+  width: 200px;
+  transition: transform 0.3s ease-out;
+}
+
+#git:hover {
+  transform: translateY(8px);
+}
+</style>
+
