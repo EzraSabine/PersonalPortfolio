@@ -54,6 +54,8 @@ a {
   a {
     padding: 12px;
   }
+
+  
 }
   
 nav a:hover {
@@ -110,7 +112,7 @@ h1, h3 {
 
 #welcome-section > p {
   font-family: arial, sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   color: #ae6200;
 }
 
