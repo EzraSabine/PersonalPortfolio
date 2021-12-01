@@ -10,23 +10,20 @@ body {
 }
 
 header {
-  padding: 0 20px;
   position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
+  background: rgb(126, 126, 126);
   width: 100%;
   }
 
 nav {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 96%;
   justify-content: flex-end;
+  align-items: center;
   font-family: arial;
-  font-size: 25px;
-  margin-right: 75px;
+  font-size: 22px;
+  height: 100%;
 }
 
 nav > ul {
@@ -35,36 +32,26 @@ nav > ul {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
+  margin-right: 45px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  padding: 42px;
-}
-
-/* For Navbar */
-@media (max-width: 550px) {
-  header {
-    justify-content: center;
-  }
-  nav {
-    justify-content: center;
-  }
-  a {
-    padding: 12px;
-  }
-
-  
+  padding: 23px 45px;
 }
   
-nav a:hover {
+.nav-link1:hover {
+  background: #2f312b;
+  color: white;
+}
+
+.nav-link2:hover {
   background: olive;
 }
 
-#ezra {
-  width: 95px;
-  padding: 8px;
+.nav-link3:hover {
+  background: #ae6200;
 }
 
 #welcome-section {
@@ -114,6 +101,7 @@ h1, h3 {
   font-family: arial, sans-serif;
   font-size: 26px;
   color: #ae6200;
+  margin-bottom: 500px;
 }
 
 #profile-link {
@@ -127,4 +115,18 @@ h1, h3 {
 
 #git:hover {
   transform: translateY(8px);
+}
+
+/* For Navbar */
+@media (max-width: 550px) {
+  header {
+    justify-content: center;
+  }
+  nav {
+    justify-content: center;
+  }
+  a {
+    padding: 12px;
+  }
+
 }
