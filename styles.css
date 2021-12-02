@@ -61,9 +61,53 @@ a {
   justify-content: center;
   background: linear-gradient(90deg, #000000, #3c4035);
   width: 100%;
-  height: 100vh;
   padding-top: 10vh;
+  height: 100vh;
 }
+
+#welcome-section > h1 {
+  color: white;
+  margin: 0;
+}
+
+#below {
+  font-family: arial, sans-serif;
+  font-size: 26px;
+  color: #ae6200;
+}
+
+
+.container {
+  width: 100vw;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.container > img {
+  width: 100vw;
+  filter: blur(7px);
+  object-position: 0 -50px;
+  
+}
+
+.text-wrapper {
+  display: flex;
+  flex: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-wrapper p {
+  width: 60vw;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-style: italic;
+  margin-top: -800px;
+  position: absolute;
+} 
 
 
 #projects {
@@ -74,6 +118,25 @@ a {
   background: olive;
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
+}
+
+
+#projects > h3 {
+  margin: 0;
+}
+
+#projects > p {
+  font-family: arial, sans-serif;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+#video {
+  margin-bottom: 180px;
+  border: 4px solid black;
+  background: black;
 }
 
 #Contact {
@@ -86,22 +149,10 @@ a {
   background: #ae6200;
   }
 
-#welcome-section > h1 {
-  color: white;
-  margin: 0;
-}
-
 h1, h3 {
   font-size: 56px;
   font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
-}
-
-#welcome-section > p {
-  font-family: arial, sans-serif;
-  font-size: 26px;
-  color: #ae6200;
-  margin-bottom: 500px;
 }
 
 #profile-link {
