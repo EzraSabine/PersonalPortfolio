@@ -96,7 +96,6 @@ a {
   flex: column;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
 }
 
 .text-wrapper p {
@@ -107,7 +106,7 @@ a {
   color: #ffffff;
   font-style: italic;
   margin-top: -800px;
-  position: absolute;
+  position: relative;
 } 
 
 
