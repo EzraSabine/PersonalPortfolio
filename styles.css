@@ -60,13 +60,23 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #000000, #3c4035);
   width: 100%;
-  padding-top: 10vh;
   height: 100vh;
 }
 
-#welcome-section > h1 {
+
+.first-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 500px;
+  padding-top: 40px;
+  background: linear-gradient(90deg, #000000, #3c4035);
+}
+
+.first-panel > h1 {
   color: white;
   margin: 0;
 }
@@ -79,35 +89,29 @@ a {
 
 
 .container {
-  width: 100vw;
-  overflow: hidden;
-  margin-top: 50px;
-}
-
-.container > img {
-  width: 100vw;
-  filter: blur(7px);
-  object-position: 0 -50px;
-  
-}
-
-.text-wrapper {
   display: flex;
-  flex: column;
-  justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  width: 100vw;
+  background: url(images/desktest.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  filter: blur(0px);
 }
 
-.text-wrapper p {
-  width: 60vw;
+
+
+.container p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-family: arial, sans-serif;
-  font-size: 20px;
-  color: #ffffff;
+  width: 75vw;
   font-style: italic;
-  margin-top: -800px;
-  position: relative;
-} 
+  font-size: 20px;
+  margin: 55px auto;
+}
+
+
 
 
 #projects {
