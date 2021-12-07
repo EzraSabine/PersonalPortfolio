@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: white;
+  background:#ae6200;
   font-family: arial
   padding: 0;
   margin: 0;
@@ -183,14 +183,10 @@ h1, h3 {
   text-align: center;
 }
 
-#profile-link {
-  width: 300px;
-}
-
 .contact-icons {
   display: flex;
-  flex-direction: space-around;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
