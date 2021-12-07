@@ -187,12 +187,30 @@ h1, h3 {
   width: 300px;
 }
 
-#git {
-  width: 200px;
+.contact-icons {
+  display: flex;
+  flex-direction: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+#git-icon  {
+  width: 250px;
+}
+
+#linked-icon {
+  width: 100px;
+}
+
+#gmail-icon {
+  width: 135px;
+}
+
+.icons {
   transition: transform 0.3s ease-out;
 }
 
-#git:hover {
+.icons:hover {
   transform: translateY(8px);
 }
 
