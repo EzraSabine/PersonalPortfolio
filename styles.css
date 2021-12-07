@@ -96,10 +96,7 @@ a {
   background-size: cover;
   background-position: center;
   height: 100%;
-  filter: blur(0px);
 }
-
-
 
 .container p {
   color: white;
@@ -111,7 +108,34 @@ a {
   margin: 55px auto;
 }
 
+.web-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.video-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.web-icons {
+  width: 95px;
+  transition: transform 0.3s ease-out;
+}
+
+.web-icons:hover {
+  transform: scale(1.1);
+}
 
 
 #projects {
