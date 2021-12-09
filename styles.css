@@ -162,10 +162,23 @@ a {
 }
 
 #video {
-  margin-bottom: 180px;
-  border: 4px solid black;
-  background: black;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
 }
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+}
+
 
 #Contact {
   display: flex;
@@ -177,10 +190,22 @@ a {
   background: #ae6200;
   }
 
-h1, h3 {
-  font-size: 56px;
-  font-family: 'Rubik Mono One', sans-serif;
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+  }
+
+.container-three p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  width: 75vw;
+  font-style: italic;
+  font-size: 20px;
+  margin: 55px auto;
 }
 
 .contact-icons {
@@ -188,18 +213,28 @@ h1, h3 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
-#git-icon  {
-  width: 250px;
+#git-icon {
+  width: 170px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #linked-icon {
-  width: 100px;
+  width: 85px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #gmail-icon {
-  width: 135px;
+  width: 115px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .icons {
@@ -210,8 +245,23 @@ h1, h3 {
   transform: translateY(8px);
 }
 
+h1, h3 {
+  font-size: 56px;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+}
+
+
 
 @media only screen and (max-width: 670px) {
 
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    margin-top: 15px;
+  }
+  
 
 }
