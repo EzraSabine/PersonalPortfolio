@@ -273,6 +273,7 @@ h1, h3 {
   }
 
   #name-label {
+    margin-top: 10px;
     font-size: 48px;
   }
   .first-panel {
