@@ -222,24 +222,20 @@ a {
 }
 
 #git-icon {
-  width: 170px;
-  margin: 0 auto;
-  padding: 0;
+  width: 200px;
 }
 
 #linked-icon {
   width: 85px;
-  margin: 0 auto;
-  padding: 0;
 }
 
 #gmail-icon {
   width: 115px;
-  margin: 0 auto;
-  padding: 0;
 }
 
 .icons {
+  z-index: 2000;
+  position: relative;
   transition: transform 0.3s ease-out;
 }
 
