@@ -146,19 +146,26 @@ a {
   background: olive;
   width: 100%;
   height: 100vh;
-  padding-top: 10vh;
 }
 
-
-#projects > h3 {
-  margin: 0;
+#container-two {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
 }
 
-#projects > p {
+#container-two > h3 {
+  padding-top: 25px;
+  margin-top: 100px;
+}
+
+#container-two > p {
   font-family: arial, sans-serif;
   font-size: 26px;
   color: #ffffff;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 #video {
@@ -175,8 +182,8 @@ a {
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  width: 80%;
-  height: 80%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
@@ -198,14 +205,9 @@ a {
     height: 100%;
   }
 
-.container-three p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  width: 75vw;
-  font-style: italic;
-  font-size: 20px;
-  margin: 55px auto;
+.container-three h3 {
+  padding-top: 25px;
+  margin-top: 100px;
 }
 
 .contact-icons {
@@ -319,12 +321,12 @@ h1, h3 {
   }
 
 
-  #projects > p {
+  #container-two > p {
     margin-bottom: 50px;
     margin-top: 5px;
   }
   
-  #projects > h3 {
+  #container-two > h3 {
     margin-bottom: 20px;
   }
 
