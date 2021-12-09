@@ -253,13 +253,6 @@ h1, h3 {
 
 @media only screen and (max-width: 670px) {
 
-  .contact-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-around;
-    margin-top: 15px;
-  }
 
   nav {
     width: 100%;
@@ -332,6 +325,24 @@ h1, h3 {
   
   .web-icons {
     width: 50px;
+  }
+
+
+.container-three h3 {
+  font-size: 52px;
+  padding-top: 25px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+}
+
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    margin-top: 0;
   }
 
 }
