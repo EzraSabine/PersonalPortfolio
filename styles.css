@@ -287,20 +287,23 @@ h1, h3 {
     padding: 15px;
   }
 
-  #name-label {
-    margin-top: 100px;
-    font-size: 48px;
-  }
   .first-panel {
     padding-top: 80px;
   }
 
-  #resume {
-    margin-bottom: 90px;
+  #name-label {
+    margin-top: 100px;
+    font-size: 48px;
   }
 
   #below {
     text-align: center;
+    margin-top: 2px;
+    
+  }
+
+  #resume {
+    margin-bottom: 90px;
   }
 
 
