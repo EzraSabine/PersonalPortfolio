@@ -293,7 +293,10 @@ h1, h3 {
   }
   .first-panel {
     padding-top: 150px;
-    padding-bottom: 20px;
+  }
+
+  #resume {
+    margin-bottom: 80px;
   }
 
   #below {
