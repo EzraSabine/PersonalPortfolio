@@ -1,0 +1,97 @@
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    pad: 0px;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+  
+}
+
+header > h1 {
+    font-size: 50px;
+    margin-left: 20px;
+    outline: 4px solid black;
+}
+
+
+header > h1:hover {
+    outline: 8px solid rgb(0, 0, 0);
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+
+.links > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.links > li:hover {
+    outline: 2px solid black;
+}
+
+.message {
+    text-align: center;
+    margin: 35px;
+    color: orange;
+
+}
+
+.big-pumpkin {
+    display: block;
+    margin: 150px auto auto auto;
+    width: 350px;
+    border-radius: 200px;
+    
+    
+}
+
+.big-pumpkin:hover {
+    transition: 0.5s;
+    color: yellow;
+    background: yellow;
+    box-shadow: 0 0 120px yellow;
+                0 0 220px yellow;
+                0 0 320px yellow;
+                0 0 420px yellow;
+}
+
+@media only screen and (max-width: 500px) {
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 {
+    display: inline-block;
+    margin: 12px auto auto auto;
+    border: 4px solid black;
+    width: 50%;
+}
+
+}

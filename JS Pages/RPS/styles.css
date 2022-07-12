@@ -1,0 +1,42 @@
+
+body {
+    background-color: darkgray;
+}
+
+#btn-container {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(64, 64, 64);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+#container1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#container2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#finalist {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+

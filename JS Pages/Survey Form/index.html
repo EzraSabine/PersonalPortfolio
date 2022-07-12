@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Wars Survey form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+<h1 id="title">Star Wars: The Clone Wars Survey Form</h1>
+<p id="description">- To help us better improve future episodes -</p>
+
+<form id="survey-form">
+<div class="form-group">
+  <label for="name" id="name-label">Name</label> 
+  <input id="name" type="text" name="name" class="form-control" placeholder="Enter your name" required/>
+  </div>
+  
+  <div class="form-group">
+  <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" name="email" class="form-control" placeholder="Enter Your Email" required/>
+  </div>
+  
+  <div class="form-group">
+    <label for="age" id="number-label">Age</label>
+     <input id="age" type="number" min="1" max="110" name="age" class="form-control" placeholder="Enter Your Age"/>
+  </div>
+  
+  <div class="form-group">
+    <p>What season of Clone Wars is your favorite?</p>
+  <select id="dropdown" name="episodes" class="form-control" required>
+    <option disabled selected value>Select Your Favorite Season</option>
+    <option value="season1">Season 1</option>
+    <option value="season2">Season 2</option>
+    <option value="season3">Season 3</option>
+    <option value="season4">Season 4</option>
+    <option value="season5">Season 5</option>
+    <option value="season6">Season 6</option>
+    <option value="season7">Season 7</option>
+    </select>
+  </div>
+
+<div class="radio-check-group">
+  <p>Would you recommend The Clone Wars to a friend?</p>
+  
+  <label for="absolutely">
+  <input id="absolutely" value="absolutely" name="recommend" type="radio" class="input-radio" checked/>Absolutely
+  </label>
+  <br><br>
+  <label for="maybe">
+    <input id="maybe" value="maybe" name="recommend" type="radio" class="input-radio"/>Maybe
+  </label>
+  <br><br>
+  <label for="not-sure">
+    <input id="not-sure" value="not-sure" name="recommend" type="radio" class="input-radio"/>Not Sure
+  </label>
+</div>
+<br><br>
+
+    <div class="form-group">
+      <p>What are your favorite story elements of The Clone Wars?</p>
+      <select id="preferences" name="story-elements" class="form-control" required>
+      <option disabled selected value>Pick Your Favorite Story Element</option>
+      <option value="lightsaberfights">Light Saber Fights</option>
+      <option value="politics">Politics</option>
+      <option value="largebattles">Large Battles</option>
+      <option value="lovestory">Love Stories</option>
+      </select>
+</div>
+
+<div class="checkbox-control">
+  <p>Which of the following are your favorite characters? (select all that apply)</p>
+  
+  <label for="AnakinSkywalker">
+    <input id="AnakinSkywalker" value="AnakinSkywalker" name="favcharacters" type="checkbox" class="input-checkbox"/>Anakin Skywalker
+  </label>
+  <br><br>
+  
+  <label for="yod">
+    <input id="yoda" value="yoda" name="favcharacters" type="checkbox" class="input-checkbox"/>Yoda
+  </label>
+  <br><br>
+  
+  <label for="padme">
+    <input id="padme" value="padme" name="favcharacters" type="checkbox" class="input-checkbox"/>Padme Amidala
+  </label>
+  <br><br>
+  
+  <label for="Asajj">
+    <input id="Asajj" value="Asajj" name="favcharacters" type="checkbox" class="input-checkbox"/>Asajj Ventress
+  </label>
+  <br><br>
+  
+  <label for="obiwan">
+    <input id="obiwan" value="obiwan" name="favcharacters" type="checkbox" class="input-checkbox"/>Obi-Wan Kenobi
+  </label>
+  <br><br>
+  
+  <label for="ahsoka">
+    <input id="ahsoka" value="ahsoka" name="favcharacters" type="checkbox" class="input-checkbox"/>Ahsoka Tano
+  </label>
+  <br><br>
+  
+  <label for="palpatine">
+    <input id="palpatine" value="palpatine" name="favcharacters" type="checkbox" class="input-checkbox"/>Palpatine
+  </label>
+  <br><br>
+  
+  <label for="bokatan">
+    <input id="bokatan" value="bokatan" name="favcharacters" type="checkbox" class="input-checkbox"/>Bo-Katan Kryze
+  </label>
+  <br><br>
+  
+  <label for="grevious">
+    <input id="grevious" value="grevious" name="favcharacters" type="checkbox" class="input-checkbox"/>General Grevious
+  </label>
+  <br><br>
+  
+  <label for="rex">
+    <input id="rex" value="rex" name="favcharacters" type="checkbox" class="input-checkbox"/>Captain Rex
+  </label>
+  <br><br>
+</div>
+
+<div class="form-group">
+  <p>Enter Any Additional Comments</p>
+   <textarea id="comments" name="comments" class="text-area" placeholder="Enter Comments Here...">
+  </textarea>
+   </div>
+
+<div class="form-group">
+  <button id="submit" type="submit" class="submit-button">Submit</button>
+</div>
+</form>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>

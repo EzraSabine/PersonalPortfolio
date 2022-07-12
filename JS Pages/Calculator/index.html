@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>JS Practice: Calculator, Background Change - Dropdown,</title>
+</head>
+
+<body>
+
+<header>
+<h1 id="title">Small Javascript Projects</h1>
+</header>
+
+<div id="calculator">
+<h1 id="calc-title">Value Calculator</h1>
+
+<form>
+
+<div id="value-boxes">
+Value 1: <input type="text" id="value1">
+<br>
+Value 2: <input type="text" id="value2">
+</div>
+
+<div id="op-calc">
+<select id="operator">
+    <option value="add">Add</option>
+    <option value="sub">Subtract</option>
+    <option value="div">Divide</option>
+    <option value="mul">Multiply</option>
+</select>
+
+<button id="btn" onclick="calc()" type="button">Caluclate</button>
+</div>
+</form>
+
+<div id="solution"></div>
+</div>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

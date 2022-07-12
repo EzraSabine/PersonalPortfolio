@@ -1,0 +1,135 @@
+body, html {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+  
+}
+
+header > h1 {
+    font-size: 50px;
+    margin-left: 20px;
+    outline: 4px solid black;
+}
+
+header > h1:hover {
+    outline: 8px solid black;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+
+.links > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.links > li:hover {
+    outline: 2px solid black;
+}
+
+.link-box-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 6px solid orange;
+    margin: auto;
+    width: 800px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.link-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+
+#amazon {
+    width: 200px;    
+    height: auto;
+    margin-top: 50px;
+}
+
+#amazon:hover {
+    transform: rotate(10deg)
+}
+
+#cossky {
+    width: 250px;
+    height: auto;
+}
+
+#cossky:hover {
+    transform: rotate(-10deg)
+}
+
+#spirit {
+    width: 200px;
+    height: auto;
+    border-radius: 200px;
+}
+
+#spirit:hover {
+    transform: rotate(-10deg)
+}
+
+@media only screen and (max-width: 500px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header > h1 {
+        margin: 20px auto;
+        text-align: center;
+        width: 80%;
+        outline: 4px solid black;
+    }
+
+    .link-box-container {
+        margin: auto;
+        width: 80%;
+        height: 420px;
+        margin-top: 30px;
+    }
+    
+    .link-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #cossky {
+        margin-right: 15px;
+    }
+}
