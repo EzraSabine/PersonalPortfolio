@@ -11,7 +11,7 @@ body {
 
 header {
   position: fixed;
-  z-index: 1,000;
+  z-index: 2,000;
   background: rgb(126, 126, 126);
   width: 100%;
   }
@@ -61,7 +61,6 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
 }
 
 
@@ -71,15 +70,14 @@ a {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 300px;
-  padding-top: 100px;
+  height: auto;
   background: linear-gradient(90deg, #000000, #3c4035);
 }
 
 .first-panel > h1 {
   color: white;
-  padding-top: 60px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 #below {
@@ -111,7 +109,7 @@ a {
   background: url(images/desktest.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: auto;
 }
 
 .container p {
@@ -198,21 +196,17 @@ a {
 
 
 #projects {
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: olive;
-  width: 100%;
+  width: 100vw;
+  height: 100%;
 }
 
-#container-two {
-  width: 100vw;
-  height: auto;
-}
+
 
 #container-two > h3 {
-  padding-top: 50px;
   margin-top: 100px;
 }
 
@@ -354,10 +348,7 @@ h1, h3 {
   }
 
   .first-panel {
-    padding: 0px 50px 50px 50px;
-  }
-
-  .first-panel > h1 {
+    margin: -35px;
   }
 
   #name-label {
@@ -461,7 +452,7 @@ h1, h3 {
 }
 
 
-  .contact-icons {
+.contact-icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
