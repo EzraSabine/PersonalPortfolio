@@ -1,0 +1,43 @@
+
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-container > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#main-container > p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#change-grid-btn {
+    margin: 0 auto;
+    width: 90px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#etch-container {
+    display: grid;
+    outline: 10px solid rgb(93, 93, 0);
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    
+}
+
+
+#reset {
+    margin: 0 auto;
+    width: 110px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
