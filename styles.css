@@ -11,7 +11,7 @@ body {
 
 header {
   position: fixed;
-  z-index: 2,000;
+  z-index: 5,000;
   background: rgb(126, 126, 126);
   width: 100%;
   }
@@ -247,25 +247,6 @@ a {
 }
 
 
-/*
-#video {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%;
-}
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-*/
 
 #Contact {
   display: flex;
@@ -431,6 +412,9 @@ h1, h3 {
   }
   
   #container-two > h3 {
+    font-size: 52px;
+    padding-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
 
@@ -443,6 +427,16 @@ h1, h3 {
     width: 50px;
   }
 
+
+  .web-project-img {
+    width: 300px;
+  }
+
+
+  .responsive-iframe {
+    width: auto;
+  }
+  
 
 .container-three h3 {
   font-size: 52px;
