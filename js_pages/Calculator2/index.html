@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Calculator Final Project</title>
+  </head>
+  <body onload="onlyNumbers()"> 
+    <h1>Final Calculator Project</h1>
+
+    <div id="calc-main">
+      <div id="calc-disp">
+        <h2 id="numbDisplay"></h2>
+        <h2 id="operatorDisplay"></h2>
+        <h2 id="numbTwoDisplay"></h2>
+        <h2 id="answerDisplay"></h2>
+      </div>
+      <div id="calc-btns">
+        <button type="button" id="C">C</button>
+        <div class="rows">
+          <button class="buttons" type="button" id="seven">7</button>
+          <button class="buttons" type="button">8</button>
+          <button class="buttons" type="button">9</button>
+          <button class="operators" type="button"> / </button>
+        </div>
+        <div class="rows">
+          <button class="buttons" type="button">4</button>
+          <button class="buttons" type="button">5</button>
+          <button class="buttons" type="button">6</button>
+          <button class="operators" type="button"> x </button>
+        </div>
+        <div class="rows">
+          <button class="buttons" type="button">1</button>
+          <button class="buttons" type="button">2</button>
+          <button class="buttons" type="button">3</button>
+          <button class="operators" type="button"> - </button>
+        </div>
+        <div class="rows">
+          <button class="buttons" type="button">0</button>
+          <button class="buttons" type="button">.</button>
+          <button class="operators" type="button"> + </button>
+          <button id="operate" type="button">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
